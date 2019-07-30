@@ -1,1 +1,0 @@
-# dobrovolnikMarek.github.io
