@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content, .menu, .wrapper, html, body{
+    height: 100%;
+}
+
+h1{
+    color: #576369;
+    font-size: 20px;
+}
+
+p{
+    margin: 15px 0;
+}
+
+body, button, input[type=text],input[type=password], h1{
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+button{
+    background: #6ca0d1;
+    color: #fff;
+    border: 1px solid #6ca0d1;
+    padding: 8px;
+    border-radius: 8px;
+    margin-right: 63px;
+}
+
+input[type=text], input[type=password]{
+    padding: 8px;
+    border: 1px solid #EEEFF2;
+    border-radius: 8px;
+    color: #ADB6BA;
+    width: 300px;
+    outline: none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.content{
+    flex: 1;
+    /*padding: 20px;*/
+    background: #D3E7F3;
+    height: 2400px;
+}
+
+.block{
+    margin: 40px;
+    padding: 20px;
+    background: #fff;
+    border:  1px solid #EEEFF2;
+
+
+}
+
+#logo{
+    
+    width:150px;
+    height:120px;
+}
+
+.menu{
+    width: 200px;
+    background: #6ca0d1;
+    padding: 20px;
+    height: 2400px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    display: block;
+    color:#fff;
+    padding: 10px;
+    text-transform: uppercase;
+    /*padding:0 0 0 10px;*/
+    margin-top: 15px;
+    background-color: #505488;
+}
+
+img{
+    width: 15px;
+    height: 15px;
+}
+
+.selected{
+    
+    color: #fff;
+}
+
+
+
+/*body {
+    background: #000;
+}*/
