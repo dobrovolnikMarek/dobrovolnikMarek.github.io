@@ -5,7 +5,7 @@
         if(!preg_match('/^[A-z0-9]{3,15}$/', $page)) not_found();
     }
 
-    $CONNECT = mysqli_connect('newkursach.com', 'root', '', 'kursach');
+    $CONNECT = mysqli_connect('dobrovolnikMarek.github.io', 'root', '', 'kursach');
     if(!$CONNECT)
         exit('error');
 
